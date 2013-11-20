@@ -38,7 +38,15 @@ nav ul {
 }
 
 section {
+    font-family: helvetica, arial, sans-serif;
+    border: 10px;
+    border-color: #000000;
+}
 
+article h1{
+    font-size: 40px; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-decoration: underline;
 }
 
 .cta, section p + a {
