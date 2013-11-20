@@ -13,7 +13,7 @@ img { width: 100%; }
 }
 
 nav, section, footer {
-    background-color: #fff;
+    background-color: #0021A5;
     padding: 10px;
 }
 
@@ -21,6 +21,7 @@ header {
 }
 
 header h1 {
+    text-align: center;
     line-height: 0;
     margin-bottom: 0;
     text-indent: -10000px;
@@ -56,6 +57,11 @@ section {
 
 article {
     border-bottom: 1px solid gray;
+}
+
+#articletwitter {
+    float: right;
+    padding: 10px;
 }
 
 
