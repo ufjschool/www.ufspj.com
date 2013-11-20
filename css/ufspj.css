@@ -1,9 +1,6 @@
 * { box-sizing: border-box; } 
 
-body { 
-    background-color: rgb(9,28,54); 
-    font-family: helvetica, arial, sans-serif;    
-}
+body { background-color: rgb(9,28,54); }
 
 img { width: 100%; }
 
@@ -56,10 +53,42 @@ section {
 
 article {
     border-bottom: 1px solid gray;
+
 }
 
+.centerheader
+{
+text-align:center;
+font-weight: bold;
+}
+
+.centerbody
+{
+text-align:center;
+}
+
+.twittercenter {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
 
 footer {
     border-radius: 0 0 10px 10px;
     margin-bottom: 20px;
+}
+
+/* Media Settings for Mobile Viewing
+-----------------------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+
+#footer {
+    font-size: small;
+    text-align:left;
+}
+
+h1 {
+    color: #B0E2FF;
+    font-size: x-large;
+    text-align: center;
 }
