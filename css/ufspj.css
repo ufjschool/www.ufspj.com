@@ -27,6 +27,13 @@ header h1 {
     text-indent: -10000px;
 }
 
+#h1 {
+    text-align: center;
+    color: red;
+}
+
+p.h1 {text-align: center;}
+
 header img {
 }
 
