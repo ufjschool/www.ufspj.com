@@ -1,9 +1,6 @@
 * { box-sizing: border-box; } 
 
-body { 
-    background-color: rgb(9,28,54); 
-    font-family: helvetica, arial, sans-serif;    
-}
+body { background-color: rgb(9,28,54); }
 
 img { width: 100%; }
 
@@ -13,7 +10,6 @@ img { width: 100%; }
 }
 
 nav, section, footer {
-    color: #000;
     background-color: #fff;
     padding: 10px;
 }
@@ -27,12 +23,16 @@ header h1 {
     text-indent: -10000px;
 }
 
+/*--centered header image so that it looks better on desktop--*/
 header img {
+    IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 }
 
-
 nav {
-    border-top: 22px solid rgb(9,28,54);
+    border-top: 10px solid rgb(9,28,54);
 }
 
 nav ul {
@@ -55,8 +55,25 @@ section {
     width: 50%;
 }
 
+
 article {
     border-bottom: 1px solid gray;
+}
+
+article ul
+{
+list-style-type:disc;
+padding: 0px;
+margin: 0px;
+display:block-inline;
+
+}
+
+article ul+li
+{
+text-align: left;
+padding: 0px;
+padding-left: 14px; 
 }
 
 a { 
@@ -66,11 +83,31 @@ a {
 p a {
     font-weight:500;
 }
+
 .twitter-timeline {
     width: 100%
+
+}
+
+/*--i noticed code was being accepted and changed and i didn't have that code so i copied it so that i could float the twitter feed center--*/
+
+#articletwitter {
+    float: center;
 }
 
 footer {
     border-radius: 0 0 10px 10px;
     margin-bottom: 20px;
 }
+
+
+/*--more mobile optimization, header centers at 650px--*/
+@media screen and (max-width: 650px)
+    {
+    
+article h1 {
+        text-align:center;
+    }
+}
+        
+    
