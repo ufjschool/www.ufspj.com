@@ -1,15 +1,10 @@
 * { box-sizing: border-box; } 
 
 body { 
-<<<<<<< HEAD
-    
-    font-family: helvetica, arial, sans-serif;
-    background-color: rgb(9,28,54); }
-=======
     background-color: rgb(9,28,54); 
     font-family: helvetica, arial, sans-serif;    
 }
->>>>>>> master
+
 
 img { width: 100%; }
 
@@ -43,6 +38,13 @@ nav {
 
 nav ul {
     display: none;   
+}
+
+nav li:hover {
+    color: F2F2F2;
+}
+nav li:visited {
+    color: F2F2F2;
 }
 
 section {
@@ -83,6 +85,10 @@ padding-left: 14px;
 =======
 a { 
     font-weight:600;
+}
+
+a h1 + p {
+    text-align: center;
 }
 
 p a {
