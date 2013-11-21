@@ -37,13 +37,10 @@ header img {
 }
 
 
-nav {
+nav + nav ul {
     border-top: 22px solid rgb(9,28,54);
 }
 
-nav ul {
-    display: none;   
-}
 
 section {
 
@@ -92,6 +89,7 @@ p a {
     width: 100%
 >>>>>>> master
 }
+#twttr-sandbox-0 { text-align: center }
 
 footer {
     border-radius: 0 0 10px 10px;
