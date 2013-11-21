@@ -34,6 +34,7 @@ header h1 {
 }
 
 header img {
+    
 }
 
 
@@ -45,7 +46,12 @@ nav ul {
     display: none;   
 }
 
+nav a:hover {
+    color: rgb (9,28,54);
+}
+
 section {
+    border: 5 px solid #000;
 
 }
 
@@ -63,6 +69,7 @@ section {
 
 article {
     border-bottom: 1px solid gray;
+    padding: 5%;
 }
 
 <<<<<<< HEAD
@@ -81,6 +88,12 @@ text-align: left;
 padding: 0px;
 padding-left: 14px; 
 =======
+}
+
+article a:hover {
+    color: rgb (9,28,54);
+}
+
 a { 
     font-weight:600;
 }
@@ -90,6 +103,9 @@ p a {
 }
 .twitter-timeline {
     width: 100%
+    float: right;
+    padding: 5px;
+    text-align: center;
 >>>>>>> master
 }
 
@@ -102,3 +118,23 @@ footer {
     margin-bottom: 20px;
 >>>>>>> master
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 5%;
+    }
+    
+    article h1 {
+        text-align: center;
+    }
+    
+    header img {
+        width: 100%;
+        float: center;
+        margin: auto;
+    }
+    
+}    
+    
+    
