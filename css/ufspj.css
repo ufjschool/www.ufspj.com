@@ -37,6 +37,7 @@ header h2 {
 }
 
 header img {
+    align-content:center;
 }
 h1{
     color: rgb (9,28,54);
@@ -122,6 +123,14 @@ a {
 
 p a {
     font-weight:500;
+    text-decoration:none;
+}
+p a:hover {
+    color: rgb(9,28,54);
+    text-decoration: underline;
+}
+p a: visited {
+    color: black;
 }
 .twitter-timeline {
     width: 100%
