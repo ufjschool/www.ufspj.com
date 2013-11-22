@@ -9,11 +9,18 @@ body {
     font-family: helvetica, arial, sans-serif;    
 }
 
+
+
 img { width: 100%; }
 
 #wrapper {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
+}
+
+#font {
+   margin: 20px;
+    
 }
 
 nav, section, footer {
@@ -23,6 +30,7 @@ nav, section, footer {
 }
 
 header {
+    margin-bottom: 25px;
 }
 
 header h1 {
@@ -34,9 +42,22 @@ header h1 {
 header h2 {
     background-color: rgb(9,28,54);
     color: white
+    
 }
 
+article.big {
+    padding: 2%;
+    margin: 30px;
+    border-radius: 50px;
+    text-align:center;
+    border-bottom-style:double;
+    border-top-style:double;
+        
+}
+
+
 header img {
+    margin-bottom: 10px;
 }
 h1{
     color: rgb (9,28,54);
@@ -56,6 +77,7 @@ section {
 
 }
 
+
 .cta, section p + a {
     background-color: rgba(9,28,54,.7);
     border-radius: 10px;
@@ -68,6 +90,8 @@ section {
     width: 50%;
 }
 
+
+
 @media screen and (max-width: 400px) {
     
     body {
@@ -76,13 +100,14 @@ section {
 
     h1, h2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     }
 
     nav {
     border: 0;
     width: 100%;
 }
+
     
     p {
         margin-left: 5px;
