@@ -22,7 +22,7 @@ nav, section, footer {
     padding: 10px;
 }
 
-header {
+header {text-align: center;
 }
 
 header h1 {
@@ -36,8 +36,12 @@ header h2 {
     color: white
 }
 
+nav a:hover {
+    color:#D5FFFE;}
+
 header img {
 }
+
 h1{
     color: rgb (9,28,54);
 }
@@ -51,6 +55,9 @@ nav {
 nav ul {
     display: none;   
 }
+
+nav a:hover {
+    color:rgb (9,28,54);}
 
 section {
 
@@ -67,6 +74,8 @@ section {
     text-decoration: none;
     width: 50%;
 }
+
+
 
 @media screen and (max-width: 400px) {
     
@@ -94,7 +103,9 @@ section {
 
 article {
     border-bottom: 1px solid gray;
+        padding: 8%;
 }
+    
 article + footer {
     border-bottom: rgb(9,28,54);
     
