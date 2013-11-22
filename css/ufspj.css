@@ -9,7 +9,7 @@ img { width: 100%; }
 
 #wrapper {
     margin: 0 auto;
-    width: 90%;
+    width: 50%;
 }
 
 nav, section, footer {
@@ -32,7 +32,7 @@ header img {
 
 
 nav {
-    border-top: 22px solid rgb(9,28,54);
+    border-align; 22px solid rgb(9,28,54);
 }
 
 nav ul {
@@ -56,7 +56,7 @@ section {
 }
 
 article {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid red;
 }
 
 a { 
