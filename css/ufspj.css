@@ -24,7 +24,11 @@ nav, section, footer {
 
 header {
 }
+h1{
+    color: ##FF0000 (9,28,54);
+}
 
+}
 header h1 {
     line-height: 0;
     margin-bottom: 0;
@@ -95,8 +99,9 @@ section {
 article {
     border-bottom: 1px solid gray;
 }
+
 article + footer {
-    border-bottom: rgb(9,28,54);
+    border-bottom: #FF0000 (9,28,54);
     
 }
 
