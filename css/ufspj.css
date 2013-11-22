@@ -38,6 +38,7 @@ header h2 {
 
 header img {
 }
+
 h1{
     color: rgb (9,28,54);
 }
@@ -82,6 +83,7 @@ section {
     section > article {
     color: #D2691E;    
     } 
+    
     nav {
     border: 0;
     width: 100%;
@@ -94,7 +96,6 @@ section {
         font-size: 16px;
     }
     
-
     p a:hover {
         color: rgb(9,28,54);
     }
@@ -102,6 +103,7 @@ section {
     p a:visited {
         color: black;
     }
+    
 article {
     border-bottom: 1px solid gray;
 }
