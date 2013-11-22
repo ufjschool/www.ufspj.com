@@ -14,12 +14,13 @@ img { width: 100%; }
 #wrapper {
     margin: 0 auto;
     width: 90%;
+    background-color: #CF8769;
 }
 
 nav, section, footer {
     color: #000;
-    background-color: #fff;
     padding: 10px;
+    text-align: center;
 }
 
 header {
@@ -57,9 +58,9 @@ section {
 }
 
 .cta, section p + a {
-    background-color: rgba(9,28,54,.7);
+    background-color: #CCC;
     border-radius: 10px;
-    color: rgba(255,255,255,.7);
+    color: #000;
     display: block;
     margin: 0 auto 20px auto;
     padding: 10px;
