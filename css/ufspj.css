@@ -37,7 +37,14 @@ header h2 {
 }
 
 header img {
+    border: #FF0000;
+    padding: 15px 10px 10px;
 }
+
+header + img {
+    border-radius: 2px;
+}
+
 h1{
     color: rgb (9,28,54);
 }
