@@ -33,11 +33,15 @@ header h1 {
 
 header h2 {
     background-color: rgb(9,28,54);
-    color: white
+    color: white;
+    text-indent: -10000px;
 }
 
 header img {
+	margin: 0 auto 0 auto;
+	display: block;
 }
+
 h1{
     color: rgb (9,28,54);
 }
@@ -57,16 +61,28 @@ section {
 }
 
 .cta, section p + a {
-    background-color: rgba(9,28,54,.7);
+    background-color: rgb(9,28,54);
+    color: white;
     border-radius: 10px;
-    color: rgba(255,255,255,.7);
     display: block;
     margin: 0 auto 20px auto;
-    padding: 10px;
+    padding: 10px 3% 10px 3%;
     text-align: center;
     text-decoration: none;
-    width: 50%;
+    width: 94%;
 }
+
+article h1,p {
+	padding: 0 3% 0 3%;
+}
+
+article a {
+	color: rgba(0,164,240,1);
+	text-decoration: none;
+}
+
+
+
 
 @media screen and (max-width: 400px) {
     
