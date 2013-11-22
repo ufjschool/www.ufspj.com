@@ -34,10 +34,6 @@ header h1 {
     text-indent: -10000px;
 }
 
-.h1 {
-    font-style: italic;
-}
-
 }
 
 header img {
@@ -67,6 +63,16 @@ section {
     text-decoration: none;
     width: 50%;
 }
+
+.mainmenu {
+    font-style:italic;
+}
+
+#mid-social1 {
+   padding:10px;
+   border:5px black;
+}
+
 
 article {
     border-bottom: 1px solid gray;
