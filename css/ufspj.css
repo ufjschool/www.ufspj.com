@@ -23,6 +23,7 @@ nav, section, footer {
 }
 
 header {
+    text-align: center;
 }
 
 header h1 {
@@ -38,6 +39,9 @@ header h2 {
 
 header img {
 }
+
+ }
+ 
 h1{
     color: rgb (9,28,54);
 }
@@ -52,8 +56,17 @@ nav ul {
     display: none;   
 }
 
-section {
 
+nav a:hover {
+    color:rgb (9,28,54);}
+
+nav a:visited {
+    color: #25383C;
+}
+
+
+section {
+    
 }
 
 .cta, section p + a {
@@ -91,6 +104,13 @@ section {
         font-size: 16px;
     }
     
+p a:hover {
+     color: rgb(9,28,54);
+}
+     
+p a:visited {
+         color: #25383C;
+}
 
 article {
     border-bottom: 1px solid gray;
@@ -124,7 +144,7 @@ p a {
     font-weight:500;
 }
 .twitter-timeline {
-    width: 100%
+    width: 200%
 }
 
 footer {
