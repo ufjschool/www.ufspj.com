@@ -11,7 +11,8 @@ body {
 }
 >>>>>>> master
 
-img { width: 100%; }
+img { width: 100%; 
+}
 
 #wrapper {
     margin: 0 auto;
@@ -24,7 +25,7 @@ nav, section, footer {
     padding: 10px;
 }
 
-header {
+header {text-align:center;
 }
 
 header h1 {
@@ -60,9 +61,14 @@ section {
     text-decoration: none;
     width: 50%;
 }
+                        
+a:hover {
+    text-decoration:underline;
+     }
 
 article {
     border-bottom: 1px solid gray;
+    padding: 0 20px 0 20px;
 }
 
 <<<<<<< HEAD
@@ -89,7 +95,7 @@ p a {
     font-weight:500;
 }
 .twitter-timeline {
-    width: 100%
+    width: 100%;
 >>>>>>> master
 }
 
