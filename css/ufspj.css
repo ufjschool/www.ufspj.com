@@ -16,6 +16,13 @@ img { width: 100%; }
     width: 90%;
 }
 
+#pink {background-color: pink;
+       font-size: 22px}                
+                        
+.fantasy {font-size: 350%;
+          font-family:fantasy}
+                        
+                        
 nav, section, footer {
     color: #000;
     background-color: #fff;
