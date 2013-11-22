@@ -24,7 +24,7 @@ nav, section, footer {
     padding: 10px;
 }
 
-header {
+header {text-align: center;
 }
 
 header h1 {
@@ -45,6 +45,10 @@ nav ul {
     display: none;   
 }
 
+nav a:hover {
+    background-color:FFFF00;
+}
+
 section {
 
 }
@@ -60,6 +64,8 @@ section {
     text-decoration: none;
     width: 50%;
 }
+
+
 
 article {
     border-bottom: 1px solid gray;
