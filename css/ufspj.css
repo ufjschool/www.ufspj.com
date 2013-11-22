@@ -36,6 +36,9 @@ header h2 {
     color: white
 }
 
+h1 header + h2 header {
+    font: arial, helvetica, sans-serif;
+    
 header img {
 }
 h1{
@@ -51,6 +54,16 @@ nav {
 nav ul {
     display: none;   
 }
+
+
+h1, h2{
+    color: #D2691E;           
+}
+
+section > article {
+    color: #D2691E;    
+} 
+  
 
 section {
 
