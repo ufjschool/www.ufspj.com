@@ -1,6 +1,6 @@
 * { box-sizing: border-box; } 
 
-body { 
+body {  
     
     font-family: helvetica, arial, sans-serif;
     background-color: rgb(9,28,54); }
@@ -8,14 +8,21 @@ body {
     background-color: rgb(9,28,54); 
     font-family: helvetica, arial, sans-serif;    
 }
-
+.twitter-timeline {
+    color:blue;
+}
 img { width: 100%; }
 
+a img { border:none };
+
+H3 + P {color:gray;}
 #wrapper {
     margin: 0 auto;
     width: 90%;
 }
-
+#header {
+    color: red; /* sets color to red */ background-color: black; /* sets background color to black */ }
+}
 nav, section, footer {
     color: #000;
     background-color: #fff;
