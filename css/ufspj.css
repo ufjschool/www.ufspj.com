@@ -42,7 +42,6 @@ h1{
     color: rgb (9,28,54);
 }
 
-
 nav {
     border-top: 22px solid rgb(9,28,54);
 }
@@ -50,6 +49,13 @@ nav {
 
 nav ul {
     display: none;   
+}
+
+article{
+}
+
+article p {
+    text-indent: 1.5em;
 }
 
 section {
@@ -66,8 +72,8 @@ section {
     text-align: center;
     text-decoration: none;
     width: 50%;
-}
-
+}   
+    
 @media screen and (max-width: 400px) {
     
     body {
@@ -94,6 +100,9 @@ section {
 
 article {
     border-bottom: 1px solid gray;
+}
+article p {
+    text-indent: 0em;
 }
 article + footer {
     border-bottom: rgb(9,28,54);
@@ -174,4 +183,3 @@ footer {
         width: 100%;
 }
 }
-
