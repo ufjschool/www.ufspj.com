@@ -93,6 +93,18 @@ p a {
 >>>>>>> master
 }
 
+article a:hover {
+    color: #ffffff;   
+}
+
+.left-content {
+    float: left; width: 60%; padding-left: 2em;
+}
+
+.right-content {
+        float: right; width: 40%; padding-right: 2em;
+}
+
 footer {
     border-radius: 0 0 10px 10px;
 <<<<<<< HEAD
