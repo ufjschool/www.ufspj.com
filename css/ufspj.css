@@ -33,10 +33,12 @@ header h1 {
 
 header h2 {
     background-color: rgb(9,28,54);
-    color: white
+    color: white;
+	float: right;
 }
 
 header img {
+	width: 50%;
 }
 h1{
     color: rgb (9,28,54);
@@ -67,6 +69,16 @@ section {
     text-decoration: none;
     width: 50%;
 }
+
+article h1 {
+	text-align: center;
+}
+
+article p {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 
 @media screen and (max-width: 400px) {
     
