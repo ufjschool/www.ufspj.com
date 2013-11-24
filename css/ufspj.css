@@ -14,15 +14,13 @@ img { width: 100%; }
 #wrapper {
     margin: 0 auto;
     width: 90%;
+  
 }
 
 nav, section, footer {
     color: #000;
     background-color: #fff;
     padding: 10px;
-}
-
-header {
 }
 
 header h1 {
@@ -33,15 +31,14 @@ header h1 {
 
 header h2 {
     background-color: rgb(9,28,54);
-    color: white
+    color: #fff;
 }
 
-header img {
-}
+
 h1{
     color: rgb (9,28,54);
 }
-
+ 
 
 nav {
     border-top: 22px solid rgb(9,28,54);
@@ -53,16 +50,15 @@ nav ul {
 }
 
 section {
-
+        padding:30px ;
 }
 
 .cta, section p + a {
     background-color: rgba(9,28,54,.7);
     border-radius: 10px;
     color: rgba(255,255,255,.7);
-    display: block;
     margin: 0 auto 20px auto;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     width: 50%;
@@ -93,14 +89,14 @@ section {
     
 
 article {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px rgb(190,190,190);
 }
+    
 article + footer {
     border-bottom: rgb(9,28,54);
-    
-}
+  }
 
-<<<<<<< HEAD
+HEAD
 article ul
 {
 list-style-type:disc;
@@ -116,13 +112,15 @@ text-align: left;
 padding: 0px;
 padding-left: 14px; 
 =======
-a { 
+    }
+a, p a { 
     font-weight:600;
 }
 
-p a {
-    font-weight:500;
-}
+a :hover{
+    
+    }
+    
 .twitter-timeline {
     width: 100%
 }
