@@ -27,12 +27,13 @@ header h1 {
     text-indent: -10000px;
 }
 
-#h1 {
+#h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    color: red;
 }
 
-p.h1 {text-align: center;}
+h1 + p {
+    text-align: center;
+}
 
 header img {
 }
